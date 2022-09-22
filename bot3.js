@@ -1,6 +1,6 @@
 const { Client, Intents } = require('discord.js'); 
 const client = new Client({ intents: [32767] })
-client.login('MTAyMjUzODkxMzUyMjM5NzI4NA.GhtbxW.YuOlEAEIcc8Kqsdv9jYVHgoK2swiBVzDmE81v8');  
+client.login('токен вашего бота');  
 
 
 client.once('ready',   () => {
